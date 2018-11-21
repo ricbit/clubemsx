@@ -1,0 +1,3 @@
+10 CLS:INPUTR%:IFR%<1THEN10
+20 A=R%*R%:T%=R%*SQR(2)/2: FORX%=(T%+1)TO(R%-1):C%=C%+SQR(A-X%*X%):NEXT:PRINTR%,4*(2*C%+R%+T%*T%)+1
+
